@@ -24,6 +24,10 @@ button {
   border: none;
   cursor: pointer;
   width: 100%;
+  
+  size-adjust: 30%;
+  
+
 }
 
 button:hover {
@@ -37,8 +41,15 @@ button:hover {
 }
 
 .imgcontainer {
-  text-align: center;
-  margin: 24px 0 12px 0;
+ 
+  
+  width:100px ;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+  
 }
 
 img.avatar {
@@ -65,15 +76,20 @@ span.psw {
      width: 100%;
   }
 }
+h2{
+  text-align: center;
+  align-items: center;
+  
+}
 </style>
 </head>
 <body>
 
-<h2>User Info</h2>
+<button><h2 >User Info</h2></button>
 
-<form action="/action_page.php" method="post">
+<form action="new.html" method="post">
   <div class="imgcontainer">
-    <img src="profilephoto.jpg" alt="Avatar" class="avatar">
+    <img  src="profilephoto.jpg" alt="Avatar" class="avatar" width="100px">
   </div>
 
   <div class="container">
@@ -86,8 +102,9 @@ span.psw {
     
     <label for="psw"><b>Phone Number</b></label>
     <input type="text" placeholder="Enter Phone number" name="psw" required>
+    <a href="new.html"><button><h2>submit</h2></button></a>
         
-    <a class="register" href="new.html">Click here</a>
+    
     
   </div>
 

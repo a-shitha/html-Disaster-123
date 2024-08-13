@@ -18,7 +18,7 @@ p {
 
 /* Header Styles */
 header {
-    background-color: #007BFF;
+    background-color: black;
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -164,3 +164,7 @@ footer nav ul li a:hover {
 .but{
     color:black;
 }
+.black{
+    color: black;
+}
+
